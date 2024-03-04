@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="MercuryTravels.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test Cases(failed)">
+    <classes>
+      <class name="mercuryTravels.qa.testcases.SearchAllDetailsPageTest">
+        <methods>
+          <include name="validateCityName"/>
+          <include name="validateFlightName"/>
+          <include name="selectDifferentTypeOfSeat"/>
+          <include name="validateBookingButton"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="flightSearch"/>
+        </methods>
+      </class> <!-- mercuryTravels.qa.testcases.SearchAllDetailsPageTest -->
+      <class name="mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest">
+        <methods>
+          <include name="validateDifferentTypeOfSeat"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest -->
+    </classes>
+  </test> <!-- Test Cases(failed) -->
+</suite> <!-- Failed suite [Test Automation Test Suite] -->
